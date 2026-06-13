@@ -1,0 +1,302 @@
+[
+    {
+        "kod": "AFS",
+        "isim": "AK PORTFÖY SAĞLIK SEKTÖRÜ YABANCI HİSSE SENEDİ FONU",
+        "fiyat": 0.306784,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "DA1",
+        "isim": "A1 CAPİTAL PORTFÖY SERBEST (DÖVİZ) FON",
+        "fiyat": 47.243223,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "ADP",
+        "isim": "AK PORTFÖY BIST BANKA ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+        "fiyat": 1.261835,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "AKU",
+        "isim": "AK PORTFÖY BIST 30 ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+        "fiyat": 0.90071,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "BDY",
+        "isim": "AK PORTFÖY BIST 100 DIŞI ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+        "fiyat": 1.619681,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "BNC",
+        "isim": "AK PORTFÖY BEŞİNCİ SERBEST FON",
+        "fiyat": 2.013838,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "KLI",
+        "isim": "AK PORTFÖY PARA PİYASASI KATILIM SERBEST FON",
+        "fiyat": 1.215854,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "AFA",
+        "isim": "AK PORTFÖY AMERİKA YABANCI HİSSE SENEDİ FONU",
+        "fiyat": 1.15462,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "PAL",
+        "isim": "AK PORTFÖY ALTINCI SERBEST(DÖVİZ) FON",
+        "fiyat": 54.532841,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "AFO",
+        "isim": "AK PORTFÖY ALTIN FONU",
+        "fiyat": 1.204933,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "AOY",
+        "isim": "AK PORTFÖY ALTERNATİF ENERJİ YABANCI HİSSE SENEDİ FONU",
+        "fiyat": 0.377991,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "AJK",
+        "isim": "AK PORTFÖY 0-5 YIL VADELİ SERBEST (DÖVİZ) FON",
+        "fiyat": 61.742041,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "AES",
+        "isim": "AK PORTFÖY PETROL YABANCI BYF FON SEPETİ FONU",
+        "fiyat": 0.175653,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "PTP",
+        "isim": "AHLATCI PORTFÖY PARA PİYASASI (TL) FONU",
+        "fiyat": 1.110091,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "LTL",
+        "isim": "AHLATCI PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+        "fiyat": 0.0,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "BS1",
+        "isim": "AHLATCI PORTFÖY BİRİNCİ SERBEST (TL) FON",
+        "fiyat": 1.19686,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "HAI",
+        "isim": "AHLATCI PORTFÖY ALTIN FONU",
+        "fiyat": 1.002983,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "AJ1",
+        "isim": "A1 CAPİTAL PORTFÖY İSTATİSTİKSEL ARBİTRAJ HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+        "fiyat": 1.254735,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "DTZ",
+        "isim": "AK PORTFÖY ROBOTİK TEKNOLOJİLER DEĞİŞKEN FON",
+        "fiyat": 4.93684,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "APJ",
+        "isim": "AK PORTFÖY BIST ŞİRKETLERİ FON SEPETİ FONU",
+        "fiyat": 6.60776,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "AIS",
+        "isim": "AK PORTFÖY PARA PİYASASI KATILIM FONU",
+        "fiyat": 0.099694,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "BUY",
+        "isim": "AK PORTFÖY BÜYÜYEN ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+        "fiyat": 1.720815,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "GUM",
+        "isim": "AK PORTFÖY GÜMÜŞ FON SEPETI FONU",
+        "fiyat": 11.952216,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "ADE",
+        "isim": "AK PORTFÖY MUTLAK GETİRİ HEDEFLİ DEĞİŞKEN FON",
+        "fiyat": 0.853064,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "MTV",
+        "isim": "AK PORTFÖY METAVERSE VE DİJİTAL YAŞAM TEKNOLOJİLERİ DEĞİŞKEN FON",
+        "fiyat": 5.06909,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "KH1",
+        "isim": "AK PORTFÖY KATILIM HİSSE SENEDİ FONU (HİSSE SENEDİ YOĞUN FON)",
+        "fiyat": 1.242513,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "ALC",
+        "isim": "AK PORTFÖY KAR PAYI ÖDEYEN ŞİRKETLER HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+        "fiyat": 0.350686,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "AK3",
+        "isim": "AK PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+        "fiyat": 50.547923,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "GMI",
+        "isim": "AK PORTFÖY GÜMÜŞ SERBEST FON",
+        "fiyat": 1.349062,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "ONK",
+        "isim": "AK PORTFÖY ONİKİNCİ SERBEST (DÖVİZ-AVRO) FON",
+        "fiyat": 57.45494,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "ZFB",
+        "isim": "AK PORTFÖY FİNTEK VE BLOKZİNCİRİ TEKNOLOJİLERİ DEĞİŞKEN FON",
+        "fiyat": 6.920333,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "ARL",
+        "isim": "AK PORTFÖY BİRİNCİ FON SEPETİ FONU",
+        "fiyat": 15.329052,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "AKE",
+        "isim": "AK PORTFÖY EUROBOND (AMERİKAN DOLARI) BORÇLANMA ARAÇLARI FONU",
+        "fiyat": 0.50182,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "KVT",
+        "isim": "AK PORTFÖY ENERJİ ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+        "fiyat": 1.388546,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "EML",
+        "isim": "AK PORTFÖY EMLAK SEKTÖRÜ DEĞİŞKEN FON",
+        "fiyat": 1.193044,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "APT",
+        "isim": "AK PORTFÖY ORTA VADELI BORÇLANMA ARAÇLARI FONU",
+        "fiyat": 0.148943,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "VCY",
+        "isim": "AK PORTFÖY ELEKTRİKLİ VE OTONOM ARAÇ TEKNOLOJİLERİ DEĞİŞKEN FON",
+        "fiyat": 3.299164,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "VAY",
+        "isim": "AK PORTFÖY DEĞER ODAKLI 100 ŞİRKETLERİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+        "fiyat": 1.521948,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "PUC",
+        "isim": "AK PORTFÖY BİRİNCİ KISA VADELİ SERBEST (TL)  FON",
+        "fiyat": 6.844906,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "CVL",
+        "isim": "A1 CAPİTAL PORTFÖY ÇOKLU VARLIK KATILIM FONU",
+        "fiyat": 1.277663,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "AFV",
+        "isim": "AK PORTFÖY AVRUPA YABANCI HİSSE SENEDİ FONU",
+        "fiyat": 0.555307,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "AU1",
+        "isim": "A1 CAPİTAL PORTFÖY ALTIN FONU",
+        "fiyat": 1.070168,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "PAB",
+        "isim": "A1 CAPİTAL PORTFÖY PARA PİYASASI (TL) FONU",
+        "fiyat": 1.302163,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "DGF",
+        "isim": "A1 CAPİTAL PORTFÖY DEĞİŞKEN FON",
+        "fiyat": 1.277348,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "DNF",
+        "isim": "A1 CAPİTAL PORTFÖY DİNAMİK FON SEPETİ FONU",
+        "fiyat": 1.198501,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "CAH",
+        "isim": "A1 CAPİTAL PORTFÖY HİSSE SENEDİ SERBEST FON (HİSSE SENEDİ YOĞUN FON)",
+        "fiyat": 1.39635,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "P1A",
+        "isim": "A1 CAPİTAL PORTFÖY PARA PİYASASI (TL) SERBEST FON",
+        "fiyat": 1.405253,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "BON",
+        "isim": "A1 CAPİTAL PORTFÖY BORÇLANMA ARAÇLARI FONU",
+        "fiyat": 1.264891,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "HFR",
+        "isim": "A1 CAPİTAL PORTFÖY HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+        "fiyat": 1.45724,
+        "tarih": "2026-06-12"
+    },
+    {
+        "kod": "SAS",
+        "isim": "AK PORTFÖY SABANCI TOPLULUĞU ŞİRKETLERİ ENDEKSİ HİSSE SENEDİ (TL) FONU (HİSSE SENEDİ YOĞUN FON)",
+        "fiyat": 1.569655,
+        "tarih": "2026-06-12"
+    }
+]
