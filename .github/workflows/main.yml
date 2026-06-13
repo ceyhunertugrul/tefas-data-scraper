@@ -6,22 +6,22 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # GitHub Action için zorunlu yazma yetkisi
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Repo'yu çek
-        uses: actions/checkout@v4  # Node.js uyarısı düzeltildi
+        uses: actions/checkout@v4
 
       - name: Python kur
-        uses: actions/setup-python@v5 # Node.js uyarısı düzeltildi
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.10'
 
       - name: Gerekli paketleri kur
-        run: pip install requests pandas
+        run: pip install pandas tefas-crawler
 
       - name: Scraper çalıştır
         run: python scraper.py
@@ -31,5 +31,4 @@ jobs:
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
           git add data/fon_verileri.json
-          # Yapısal Düzeltme: Yalnızca dosya değiştiyse commit at
           git diff --quiet && git diff --staged --quiet || (git commit -m "Günlük TEFAS verisi güncellendi" && git push)
