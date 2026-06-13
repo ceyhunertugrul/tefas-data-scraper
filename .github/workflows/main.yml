@@ -1,0 +1,31 @@
+name: TEFAS Veri Güncelleme
+
+on:
+  schedule:
+    - cron: '30 15 * * 1-5' # Hafta içi her gün UTC 15:30 (TSİ 18:30)
+  workflow_dispatch:        # Manuel test için buton
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo'yu çek
+        uses: actions/checkout@v3
+
+      - name: Python kur
+        uses: actions/setup-python@v4
+        with: {python-version: '3.9'}
+
+      - name: Gerekli paketleri kur
+        run: pip install requests pandas
+
+      - name: Scraper çalıştır
+        run: python scraper.py
+
+      - name: Değişiklikleri kaydet ve gönder
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'actions@github.com'
+          git add data/fon_verileri.json
+          git commit -m "Günlük TEFAS verisi güncellendi"
+          git push
