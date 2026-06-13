@@ -1,9 +1,8 @@
 import requests
 import json
-import pandas as pd
+import os
 
 def fetch_tefas_data():
-    # TEFAS'ın güncel verilerini barındıran API uç noktası
     url = "https://www.tefas.gov.tr/api/Teftas/GetFundMarketData"
     
     try:
@@ -11,8 +10,6 @@ def fetch_tefas_data():
         response.raise_for_status()
         data = response.json()
         
-        # Gelen veriyi işleyelim: Sadece kod, isim ve fiyatı alalım
-        # TEFAS API yanıtı "data" anahtarı altında listeler sunar
         fonlar = []
         for item in data.get('data', []):
             fonlar.append({
@@ -22,14 +19,17 @@ def fetch_tefas_data():
                 "tarih": item['Date']
             })
             
-        # JSON olarak kaydet
+        # Yapısal Düzeltme: data klasörü yoksa oluştur
+        os.makedirs('data', exist_ok=True)
+        
         with open('data/fon_verileri.json', 'w', encoding='utf-8') as f:
             json.dump(fonlar, f, ensure_ascii=False, indent=4)
             
-        print("Veri başarıyla güncellendi.")
+        print("Veri başarıyla çekildi ve kaydedildi.")
         
     except Exception as e:
-        print(f"Hata oluştu: {e}")
+        print(f"Kritik Hata: {e}")
+        exit(1) # Hata varsa GitHub Action'ı durdur
 
 if __name__ == "__main__":
     fetch_tefas_data()
